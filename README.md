@@ -2,17 +2,7 @@
 
 ## Постановка задачи
 
-Имеется фотография подмножества множества предметов представленных на следующих картинках и многоугольник.
-![](./images/items/box.jpg)
-![](./images/items/card.jpg)
-![](./images/items/coin.jpg)
-![](./images/items/keychain.jpg)
-![](./images/items/lighter.jpg)
-![](./images/items/mediator.jpg)
-![](./images/items/pen.jpg)
-![](./images/items/phone.jpg)
-![](./images/items/power_bank.jpg)
-![](./images/items/record_book.jpg)
+Имеется фотография подмножества предметов фиксированного множества и многоугольник. Необходимо определить, можно ли расположить все предметы в многоугольнике.
 
 ### Требования к фотографии предметов
 
@@ -29,3 +19,14 @@
 2. Соседние вершины многоугольника должны идти подряд в списке вершин (первая идет за последней)
 3. Координаты вершин многоугольника соовтветствуют сантимертам на естественной плоскости
 
+### Набор предметов
+![](./images/items/box.jpg)
+![](./images/items/card.jpg)
+![](./images/items/coin.jpg)
+![](./images/items/keychain.jpg)
+![](./images/items/lighter.jpg)
+![](./images/items/mediator.jpg)
+![](./images/items/pen.jpg)
+![](./images/items/phone.jpg)
+![](./images/items/power_bank.jpg)
+![](./images/items/record_book.jpg)
