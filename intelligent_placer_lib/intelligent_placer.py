@@ -14,7 +14,7 @@ __all__ = [
     ]
 
 
-_IP_LIB_PATH = os.path.abspath(__file__)
+_IP_LIB_PATH = os.path.join(*os.path.split(os.path.abspath(__file__))[:-1])
 _DEFAULT_CLR_PATH = os.path.join(_IP_LIB_PATH, "./../data/cluster_model.mod")
 _DEFAULT_CLF_PATH = os.path.join(_IP_LIB_PATH, "./../data/clf_model.mod")
 _n_feature_classes = 16
